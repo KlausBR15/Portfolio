@@ -111,6 +111,32 @@ body {
     font-size: 2em
 }
 
+.principal > h2::before {
+    content: '';
+    position: absolute;
+    background-color: var(--cor-fundo);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.2s;
+
+}
+
+.principal > p::before {
+    content: '';
+    position: absolute;
+    background-color: var(--cor-fundo);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
+
+}
+
 .botoes {
     display: flex;
     width: 420px;
@@ -201,6 +227,20 @@ body {
     background-color:  var(--cor-fundo);
     opacity: .8;
 }
+
+.imgprincipal::before {
+    content: '';
+    position: absolute;
+    background-color: var(--cor-fundo);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 2s;
+
+}
+
 
 
 /* animações */
